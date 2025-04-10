@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandrika Gogineni - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="logo-section">
+            <img src="./aws.webp" class="aws-logo"/>
+            <a href="#" class="logo text-gradient">Chandrika Gogineni</a>
+        </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="container">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="nav-link" id="theme-toggle-mobile">
+                    Toggle Dark Mode
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="text-gradient">Chandrika Gogineni</span></h1>
+                    <h2>Full Stack Developer</h2>
+                    <p>Results-driven developer with 4+ years of experience in designing, developing, and optimizing modern web applications.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#experience" class="btn btn-outline">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image">
+                        <img src="./WhatsAp.jpeg" alt="Chandrika Gogineni">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About <span class="text-gradient">Me</span></h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./WhatsAp.jpeg" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>Professional Summary</h3>
+                    <p>
+                        Results-driven Full Stack Developer with 4+ years of experience in designing, developing, and optimizing modern web applications. 
+                        Strong expertise in Angular, React.js, Redux, JavaScript, and Material-UI, delivering intuitive, scalable, and high-performance user interfaces. 
+                        Skilled in integrating RESTful APIs, cloud services (AWS, Azure), and CI/CD pipelines for seamless deployments. 
+                        Proven ability to enhance UI/UX, improve frontend application performance, and collaborate with cross-functional teams to build responsive and accessible web applications.
+                    </p>
+                    
+                    <div class="about-info">
+                        <div>
+                            <h4>Personal Info</h4>
+                            <ul>
+                                <li><strong>Name:</strong> Chandrika Gogineni</li>
+                                <li><strong>Location:</strong> Texas, USA</li>
+                                <li><strong>Phone:</strong> 972-302-9017</li>
+                                <li><strong>Email:</strong> chandrikag1708@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Education</h4>
+                            <ul>
+                                <li>
+                                    <strong>Masters</strong> in Computer and Information Sciences<br>
+                                    University of North Texas, TX, USA
+                                </li>
+                                <li>
+                                    <strong>Bachelors</strong> in Electronics and Communication Engineering<br>
+                                    Rajiv Gandhi University of Knowledge Technologies, India
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            Contact Me <i class="fas fa-paper-plane ml-2"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="btn btn-outline">
+                            LinkedIn <i class="fab fa-linkedin-in ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Professional <span class="text-gradient">Experience</span></h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="timeline">
+                <!-- Cigna Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full Stack Developer</h3>
+                            <span class="timeline-date">Aug 2023 – Current</span>
+                        </div>
+                        <h4 class="timeline-company">Cigna, TX</h4>
+                        <ul class="timeline-list">
+                            <li>Designed user-friendly interfaces using Angular, TypeScript, and Material-UI, improving the claim submission and tracking experience</li>
+                            <li>Integrated RESTful APIs and GraphQL with Angular to enable real-time updates and seamless data interaction</li>
+                            <li>Developed custom Angular components, directives, and pipes, promoting reusability and maintainability across modules</li>
+                            <li>Implemented RxJS Observables to handle asynchronous operations and real-time data streaming in the claim dashboard</li>
+                            <li>Utilized Angular Routing and Lazy Loading to enhance navigation efficiency and reduce initial load times</li>
+                            <li>Secured routes by integrating JWT-based authentication with Angular Guards, managing user access and roles</li>
+                            <li>Collaborated with UX designers and backend engineers to align design and API functionality for a streamlined experience</li>
+                            <li>Deployed containerized Angular apps using Docker and Kubernetes, enabling scalable cloud infrastructure</li>
+                            <li>Monitored UI performance using Prometheus and Grafana, ensuring 99% uptime and proactive issue resolution</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Accenture Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full Stack Developer</h3>
+                            <span class="timeline-date">Jan 2020 – July 2022</span>
+                        </div>
+                        <h4 class="timeline-company">Accenture, India</h4>
+                        <ul class="timeline-list">
+                            <li>Built and maintained React.js and Angular-based interfaces for a transaction monitoring system, improving user experience and efficiency</li>
+                            <li>Developed and optimized Redux state management for seamless data synchronization across complex workflows</li>
+                            <li>Enhanced component reusability and performance through best practices such as memoization and virtual DOM optimizations</li>
+                            <li>Designed and implemented RESTful API integrations to enable dynamic data fetching and updates</li>
+                            <li>Collaborated with offshore and onshore teams to ensure smooth frontend-backend communication</li>
+                            <li>Ensured cross-browser compatibility and responsiveness using Material-UI and Bootstrap</li>
+                            <li>Automated UI testing and conducted code reviews, improving application stability and maintainability</li>
+                        </ul>
+                    </div>
+                </div>
+             
+           <!-- Kritova Freelance Experience -->
+            <div class="timeline-item">
+                <div class="timeline-dot">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Freelance Full Stack Developer</h3>
+                        <span class="timeline-date">Mar 2025 – Present</span>
+                    </div>
+                    <h4 class="timeline-company">Kritova (Remote)</h4>
+                    <ul class="timeline-list">
+                        <li>Contributing to Kritova’s web development as a freelancer during weekends and outside regular office hours</li>
+                        <li>Focused on building and enhancing frontend modules using React.js and managing state with Redux</li>
+                        <li>Collaborated with the team to refine UI/UX and improve performance for dynamic client-side features</li>
+                        <li>Integrated RESTful APIs and developed responsive interfaces using Material-UI</li>
+                        <li>Used Git for source control and participated in regular code reviews and deployments</li>
+                        <li>Gaining hands-on experience in AI model workflows, including prompt engineering and basic LLM concepts</li>
+                        <li>Learning about AI-powered content systems and backend integration to support innovation at Kritova</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+        
+    </section>
+<!-- Certifications Section -->
+<section id="certifications" class="certifications">
+    <div class="section-title">
+        <h2>Certifications</h2>
+    </div>
+    <div class="certifications-container">
+        <div class="certification-item">
+            <h3>AWS Certified Developer</h3>
+            <p>Amazon Web Services (AWS)</p>
+            <p><strong>Date Obtained:</strong> December 2024</p>
+        </div>
+        <div class="certification-item">
+            <h3>Git Certification</h3>
+            <p>LinkedIn Learning</p>
+            <p><strong>Date Obtained:</strong> September 2023</p>
+        </div>
+        <div class="certification-item">
+            <h3>Machine Learning Foundations</h3>
+            <p>Online Course (Coursera/Udemy)</p>
+            <p><strong>Date Completed:</strong> November 2023</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Other Sections (e.g., Skills, Projects, etc.) -->
+
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical <span class="text-gradient">Skills</span></h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript (React.js, Angular)</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%; background-color: #f59e0b;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>TypeScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #ef4444;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #8b5cf6;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frontend Development -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-paint-brush"></i> Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React.js</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%; background-color: #60a5fa;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Angular</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%; background-color: #ef4444;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Redux</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%; background-color: #8b5cf6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Material-UI</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Development -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Spring Boot</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #22c55e;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Spring Cloud</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%; background-color: #16a34a;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Microservices</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>RESTful APIs</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%; background-color: #6366f1;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Database Management -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-database"></i> Database Management</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MySQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MongoDB</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%; background-color: #22c55e;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cloud & DevOps -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #f97316;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Azure</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Kubernetes</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #60a5fa;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Other Technologies -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-cogs"></i> Other Technologies</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git/GitHub</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%; background-color: #4b5563;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Jenkins</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%; background-color: #ef4444;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>OAuth 2.0/JWT</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Prometheus/Grafana</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%; background-color: #f97316;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In <span class="text-gradient">Touch</span></h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>
+                        Feel free to reach out to me for any questions or opportunities. I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:chandrikag1708@gmail.com">chandrikag1708@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon phone">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+19723029017">+1 (972) 302-9017</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon location">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Texas, USA</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon social-icon linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="
+                                https://www.linkedin.com/in/chandrika-160s093
+                                ">www.linkedin.com/in/chandrika</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                
+                <div className="contact-form">
+                    <form action="https://formspree.io/f/movekdqe" method="POST">
+                        <label>
+                          Your Name:
+                          <input type="text" name="name" required>
+                        </label><br><br>
+                      
+                        <label>
+                          Your Email:
+                          <input type="email" name="email" required>
+                        </label><br><br>
+                      
+                        <label>
+                          Subject:
+                          <input type="text" name="subject" required>
+                        </label><br><br>
+                      
+                        <label>
+                          Your Message:
+                          <textarea name="message" rows="5" required></textarea>
+                        </label><br><br>
+                      
+                        <button type="submit" class="send-btn" >Send Message</button>
+                      </form>
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="logo text-gradient">Chandrika Gogineni</div>
+            <div class="copyright">
+                &copy; 2025 Chandrika Gogineni. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <script>
+        // Dark Mode Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeToggleMobile = document.getElementById('theme-toggle-mobile');
+        
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark');
+            localStorage.setItem('darkMode', document.body.classList.contains('dark'));
+        }
+        
+        // Check for saved dark mode preference
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.body.classList.add('dark');
+            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            toggleDarkMode();
+            if (document.body.classList.contains('dark')) {
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        });
+        
+        themeToggleMobile.addEventListener('click', toggleDarkMode);
+        
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+        
+        // Smooth Scrolling for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Highlight Active Navigation Link on Scroll
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        // Back to Top Button
+        const backToTopBtn = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('active');
+            } else {
+                backToTopBtn.classList.remove('active');
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        
+        
+    </script>
+</body>
+</html>
